@@ -11,63 +11,41 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <div class="row">
-        <div class="col col-lg-3"></div>
+<body class="m-0 p 0">
+    <header>
+        <div class="row border-bottom mt-0 mx-0 mb-5">
+            <div class="col col-lg-3 m-0"></div>
 
-        <nav class="navbar navbar-nav navbar-expand-lg navbar-light bg-white col col-lg-6">
-            <a class="navbar-brand bg-secondary text-white"
-                style="color: white; padding: 20px; font-size:18px; font-family: Georgia, 'Times New Roman', Times, serif;">
-                Hayden Larson
-            </a>
-            <div class="row">
-                <div class="col col-lg-4">
-                    <ul class="nav justify-content-end">
-                        <li class="float-right nav-item col col-lg-4>
-                            <a class="nav-link active" href="#">Active</a>
-                        </li>
-                        <li class="float-right nav-item col col-lg-4">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="float-right nav-item col col-lg-4">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
+            <nav class="navbar navbar-nav navbar-expand-lg bg-white col col-lg-6">
+                <div class="navbar-brand my-0 ml-0 mr-5">
+                    <h1 style="background-color: #4aaaa5; color: #ffffff; padding: 20px; font-size:22px; border: 0; margin: 0; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold;">Hayden Larson</h1>
                 </div>
-            </div>
-        </nav>
-        <div class="col col-lg-3"></div>
-    </div>
+                <ul class="nav justify-content-end ml-5">
+                    <li class="nav-item">
+                        <a class="nav-link ml-5 mr-2" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
 
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand">Hayden Larson</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-            </ul>
-            <span class="navbar-text">
-                Navbar text with an inline element
-            </span>
+            <div class="col col-lg-3 m-0"></div>
         </div>
-    </nav>
+    </header>
+
+
+
 
     <div class="row">
         <div class="col col-lg-3"></div>
         <form class="col col-lg-6">
-            <h2>Contact</h2>
+            <div>
+                <h2 class="border-bottom pb-3" style="color: #777777; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 18pt; font-weight: bold;">Contact</h2>
+            </div>
             <div class="form-group">
                 <label for="formGroupExampleInput">Name</label>
                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your name here...">
@@ -81,17 +59,15 @@
                 <label for="exampleFormControlTextarea1">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
             </div>
+            <button type="button" class="btn btn-secondary btn-sm px-4">Submit</button>
         </form>
         <div class="col col-lg-3"></div>
     </div>
 
 
-    <footer>
-        <nav class="navbar fixed-bottom navbar-light bg-secondary row">
-            <div class="col col-lg-3"></div>
-            <a class="navbar-brand col col-lg-7 text-white"><h6>Copytright©</h6></a>
-            <div class="col col-lg-2"></div>
-        </nav>
+    <footer
+        class="nav justify-content-center fixed-bottom w-auto p-2 text-white align-bottom border-top border-secondary"
+        style="background-color: #666666; font-size: 8pt;">Copyright©
     </footer>
 </body>
 
